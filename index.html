@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="font-family: sans-serif;">Job Application<span class="webheader">(web)</span></h1>
+            
+        </div>
+        
+            <form >
+                <div class="formcontainer">
+                <div class="form_control">
+                <label for="first_name">FIRST NAME</label>
+            
+                <input type="text" id="first_name" name="first_name" placeholder="FIRST NAME" required>
+            </div>
+            <div class="form_control">
+                <label for="Last_name">LAST NAME</label>
+              
+                <input type="text" id="Last_name" name="Last_name" placeholder="Last NAME" required>
+            </div>
+            <div class="form_control">
+                <label for="EMAIL">EMAIL</label>
+             
+                <input type="email" id="EMAIL" name="EMAIL" placeholder="EMAIL" required>
+            </div>
+            <div class="form_control">
+                <label for="Job_role">Job Role</label>
+               
+                <select name="Job_role " id="Job_role" required>
+                    <option value="" selected>Select role</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="Fullstack">Fullstack</option>
+                    <option value="UI/UX">UI/UX</option>
+
+                </select>
+            </div>
+            <div class="textarea_control">
+                <label for="Address">ADDRESS</label>
+              
+                <textarea name="Address" id="Address" rows="4" cols="50"></textarea>
+            </div>
+            <div class="form_control">
+                <label for="City">CITY</label>
+               
+                <input type="text" id="City" name="City" placeholder="City" required>
+            </div>
+            <div class="form_control">
+                <label for="Pincode">PINCODE</label>
+               
+                <input type="number" id="Pincode" name="Pincode" placeholder="Pincode" required>
+            </div>
+            <div class="form_control">
+                <label for="Date">DATE</label>
+                
+                <input type="date" id="Date" name="Date" placeholder="Date" value="2025-02-12" required>
+            </div>
+            <div class="form_control">
+                <label for="Upload">UPLOAD RESUME</label>
+               
+                <input type="file" id="Upload" name="Upload" placeholder="No file chosen" required>
+            </div>
+        </div>
+        <div class="button_container">
+            <button type="submit">APPLY</button>
+
+        </div>
+            </form>
+        
+        </div>
+    </div>
+</body>
+</html>
